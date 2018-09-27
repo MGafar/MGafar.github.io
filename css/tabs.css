@@ -4,18 +4,19 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ddd;
+    width: 700px;
 }
 
 /* Style the icons used for tabs */
 .tab img {
-    background-color: inherit;
-    float: left;
+    background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
+    width: 80px;
     transition: 0.5s;
+    opacity: 0.5;
 }
 
 /* Change background color of buttons on hover */
@@ -25,7 +26,7 @@
 
 /* Create an active/current tablink class */
 .tab img.active {
-    background-color: #ccc;
+    opacity: 1;
 }
 
 /* Style the tab content */
