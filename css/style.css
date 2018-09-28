@@ -1,4 +1,17 @@
 #banner{
+   	height: 300px;
 	width: 100%;
-   	height: auto;
+}
+
+#infoheader{
+	height: 400px;
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }

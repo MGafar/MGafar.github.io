@@ -5,6 +5,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 700px;
+    /*background-image: url("../images/infoheader.jpg");*/
+    /*background: #D3D3D3*/
 }
 
 /* Style the icons used for tabs */
@@ -17,15 +19,18 @@
     width: 80px;
     transition: 0.5s;
     opacity: 0.5;
+    filter: grayscale(100%);
 }
 
 /* Change background color of buttons on hover */
 .tab img:hover {
-    background-color: #ddd;
+    filter: none;
+    opacity: 1;
 }
 
 /* Create an active/current tablink class */
 .tab img.active {
+    filter: none;
     opacity: 1;
 }
 
@@ -33,9 +38,8 @@
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    background-color: #ddd;
-    border: 1px solid #ccc;
     border-top: none;
+    margin-left: 100px;
 } 
 
 .tabcontent {
