@@ -1,0 +1,13 @@
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+}
+
+.carosel-mg{
+  position: relative;
+  outline: none;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
