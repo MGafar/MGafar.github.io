@@ -11,3 +11,10 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (orientation:portrait) {
+
+  .carosel-mg{
+    width: 100%;
+  }
+}
