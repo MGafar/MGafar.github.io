@@ -1,9 +1,18 @@
+.Info-carousel{
+    display: table;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
 /* Make the image fully responsive */
 .carousel-inner img {
     width: 100%;
 }
 
 .carosel-mg{
+  display: table-cell;
   position: relative;
   outline: none;
   float: left;
@@ -12,9 +21,39 @@
   margin: 0;
 }
 
+.about-me-hello{
+    display: table-cell;
+    position: relative;
+    outline: none;
+    float: left;
+    height:120%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Aldrich';
+    font-size: 210%;
+}
+
 @media screen and (orientation:portrait) {
+    .Info-carousel {
+        padding: none;
+        border: none;
+    }
 
   .carosel-mg{
-    width: 100%;
+      width: 100%;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      border-bottom: 1px solid lightgrey;
+      border-top: 1px solid lightgrey;
   }
+
+    .about-me-hello{
+        width: 100%;
+        font-size: 300%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+    }
 }
