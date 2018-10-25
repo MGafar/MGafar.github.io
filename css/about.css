@@ -1,94 +1,123 @@
 .Info-carousel{
+    width: 100%;
+    height: 12em;
     display: table;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    background-image: linear-gradient(-135deg, white, lightgrey);
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
 }
 
+.Info-carousel h2{
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
 /* Make the image fully responsive */
 .carousel-inner img {
-    width: 100%;
+    width: 50em;
+    max-width: 100%;
 }
 
-.carosel-mg{
-  display: table-cell;
-  position: relative;
-  outline: none;
-  float: left;
-  width: 50%;
-  padding: 0;
-  margin: 0;
-}
-
-.about-me-hello{
-    display: table-cell;
+ .carosel-mg{
+    display: inline-block;
     position: relative;
     outline: none;
-    float: left;
-    height:120%;
-    width: 50%;
+     float: left;
+     max-width: 30%;
+    box-shadow: 5px 5px 5px #888888;
+     margin: 1%;
+}
+
+ .computing{
+    display: inline-block;
+    position: relative;
+    outline: none;
+     float: left;
+     width: 23%;
     padding: 0;
     margin: 0;
     font-family: 'Aldrich';
-    font-size: 210%;
+    font-size: 1em;
+     text-align: center;
 }
 
-@media screen and (orientation:portrait) {
-    .Info-carousel {
-        padding: none;
-        border: none;
-    }
 
-  .carosel-mg{
-      width: 100%;
-      padding-bottom: 5px;
-      padding-top: 5px;
-      border-bottom: 1px solid lightgrey;
-      border-top: 1px solid lightgrey;
-  }
 
-    .about-me-hello{
-        width: 100%;
-        font-size: 200%;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        border-bottom: 1px solid lightgrey;
-        border-top: 1px solid lightgrey;
-    }
+ .computing img {
+     display: block;
+     position: relative;
+     width: 7em;
+     max-width: 50%;
+     padding-top: 10%;
+     margin: 0 auto;
+ }
+
+.electronics{
+    display: inline-block;
+    position: relative;
+    outline: none;
+    float: left;
+    width: 23%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Aldrich';
+    font-size: 1em;
+    text-align: center;
 }
 
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 320px) and (max-width: 479px){
-    .Info-carousel {
-        padding: none;
-        border: none;
-    }
-
-    .carosel-mg{
-        width: 100%;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        border-bottom: 1px solid lightgrey;
-        border-top: 1px solid lightgrey;
-    }
-
-    .about-me-hello{
-        width: 100%;
-        font-size: 120%;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        border-bottom: 1px solid lightgrey;
-        border-top: 1px solid lightgrey;
-    }
-
+.electronics img {
+    display: block;
+    position: relative;
+    width: 7em;
+    max-width: 50%;
+    padding-top: 10%;
+    margin: 0 auto;
 }
 
-/* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) and (max-width: 767px){ ... }
 
-/* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) and (max-width: 991px){ ... }
+.football{
+    display: inline-block;
+    position: relative;
+    outline: none;
+    float: left;
+    width: 22%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Aldrich';
+    font-size: 1em;
+    text-align: center;
+}
 
-/* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 992px) and (max-width: 1999px){ ... }
+.football img {
+    display: block;
+    position: relative;
+    width: 5.5em;
+    max-width: 30%;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+
+.carousel-caption h3{
+    font-size: 1em;
+}
+
+.carousel-caption p{
+    font-size: 0.7em;
+}
+
+.check-drone{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    box-shadow: 0 0 2px 2px #555;
+    background-image: linear-gradient(-135deg, lightgrey, white);
+}
+
+.another-div{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    box-shadow: 0 0 2px 2px #555;
+    background-image: linear-gradient(-135deg, white,  lightgrey);
+}

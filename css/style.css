@@ -1,18 +1,21 @@
 #banner{
-   	height: 15vh;
+    position: relative;
+    height: 9em;
 	width: 100vw;
+    box-shadow: 0 0 2px 2px #555;
 }
 
-/*
-#infoheader{
-	height: 400px;
-	width: 40%;
-	float: left;
-	margin-left: 10%;
-	margin-right: 10%;
-}*/
+#header{
+    position: relative;
+    height: auto;
+}
 
 body {
     margin: 0;
     padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

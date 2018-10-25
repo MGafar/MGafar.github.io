@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cv.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="css/about.css"/>
@@ -14,52 +15,55 @@
 
 	<body>
 
-		<div class="header">
-			<img src="images/banner.png" id="banner">
-
-		</div>
-
-		<!-- Tab links -->
-		<div class="tab">
-		  <img src="images/icons/About-me.png" onclick="openTab(event, 'About-me')" class="tablinks" id="defaultOpen">
-		  <img src="images/icons/CV.png" onclick="openTab(event, 'Curriculum Vitae')" class="tablinks">
-		  <img src="images/icons/Drones.png" onclick="openTab(event, 'Drones')" class="tablinks">
-		  <img src="images/icons/LinkedIn.png" onclick="openTab(event, 'LinkedIn')" class="tablinks">
-		  <img src="images/icons/YouTube.png" onclick="openTab(event, 'YouTube')" class="tablinks">
-		  <img src="images/icons/Contact.png" onclick="openTab(event, 'Contact')" class="tablinks">
+		<div class="header" id="header">
+			<div class="tabs-background" id="tabs-background">
+				<div class="tab">
+					<button onclick="openTab(event, 'About-me')" class="tablinks" id="defaultOpen">About-me</button>
+					<button onclick="openTab(event, 'Curriculum Vitae')" class="tablinks" id="defaultOpen">Resume</button>
+					<button onclick="openTab(event, 'Blog')" class="tablinks" id="defaultOpen">Blog</button>
+					<button onclick="openTab(event, 'Contact')" class="tablinks" id="defaultOpen">Contact</button>
+				</div>
+			</div>
+			<img src="images/banner2.jpg" id="banner">
 		</div>
 
 		<div id="About-me" class="tabcontent">
-		  <h3>About Me</h3>
             <div id="Info-carousel" class="Info-carousel">
                 <div id="Carousel" class="carosel-mg"></div>
-                <div id="about-me-hello" class="about-me-hello">
-                    <p style="white-space: pre-wrap;">&gt; Hello World!<br/>     I am Muhamad Gafar<br/>     ...I am a Computer Scientist<br/>     ...and an Electronic Engineer.<br/>     Welcome to my website!</p>
+                <div id="computing" class="computing">
+                    <img src="images/about/computing2.png" id="comp-pic">
+					<h2>Computer Scientist</h2>
+					<p>Masters Qualification from Imperial College London</p>
+                </div>
+                <div id="electronics" class="electronics">
+                    <img src="images/about/electronic2.png" id="elec-pic">
+					<h2>Electronic Engineer</h2>
+					<p>Bachelors Qualification from University of York</p>
+                </div>
+                <div id="football" class="football">
+                    <img src="images/about/football2.png" id="foot-pic">
+					<h2>Football Fan</h2>
+					<p>Born this way!</p>
                 </div>
             </div>
 
+            <div id="check-drone" class="check-drone">
+
+            </div>
+
+			<div id="another-div" class="another-div">
+			</div>
 		</div>
 
 		<div id="Curriculum Vitae" class="tabcontent">
-		  <h3>Curriculum Vitae</h3>
-			  <object data="./pdf/Curriculum_Vitae.pdf" type="application/pdf" width="100%" height="100%">
+			  <object data="./pdf/Curriculum_Vitae.pdf" type="application/pdf" id="cv-data">
 			   <p><b>Fallback PDF Viewer:</b> If this browser does not support PDFs, please download the PDF <a href="./pdf/Curriculum_Vitae.pdf">here</a> to view it.</p>
 			    <iframe src="https://drive.google.com/file/d/1BD1oET4NIsZtIh58cvoln1mfeVRuZJbs/preview" width="100%" height="100%"></iframe>
 			  </object>
 		</div>
 
-		<div id="Drones" class="tabcontent">
-		  <h3>Parrot AR Drone 2.0</h3>
-		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-		</div>
-
-		<div id="LinkedIn" class="tabcontent">
-		  <h3>LinkedIn</h3>
-		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-		</div>
-
-		<div id="YouTube" class="tabcontent">
-		  <h3>YouTube</h3>
+		<div id="Blog" class="tabcontent">
+		  <h3>Tech Blog</h3>
 		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
 		</div>
 
@@ -67,6 +71,8 @@
 		  <h3>Contact</h3>
 		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
 		</div>
+
+
 
 		<script>
 			function openTab(evt, cityName) {
