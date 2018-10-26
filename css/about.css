@@ -107,11 +107,52 @@
 }
 
 .check-drone{
+    display: table;
     position: relative;
     height: 30vh;
     width: 100vw;
     box-shadow: 0 0 2px 2px #555;
     background-image: linear-gradient(-135deg, lightgrey, white);
+}
+
+.check-drone-left{
+    display: inline-block;
+    position: relative;
+    outline: none;
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Aldrich';
+    font-size: 1em;
+    text-align: center;
+}
+
+.check-drone-left h2{
+    padding-top: 10%;
+    vertical-align: middle;
+}
+
+.check-drone-right{
+    display: inline-block;
+    position: relative;
+    outline: none;
+    float: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Aldrich';
+    font-size: 1em;
+    text-align: center;
+}
+
+.check-drone-right img {
+    display: block;
+    position: relative;
+    height: 10em;
+    max-height: 70%;
+    max-width: 80%;
+    margin: 10% auto;
 }
 
 .another-div{
@@ -120,4 +161,38 @@
     width: 100vw;
     box-shadow: 0 0 2px 2px #555;
     background-image: linear-gradient(-135deg, white,  lightgrey);
+}
+
+#blog-button2{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ababab), color-stop(1, #ffffff));
+    background:-moz-linear-gradient(top, #ababab 5%, #ffffff 100%);
+    background:-webkit-linear-gradient(top, #ababab 5%, #ffffff 100%);
+    background:-o-linear-gradient(top, #ababab 5%, #ffffff 100%);
+    background:-ms-linear-gradient(top, #ababab 5%, #ffffff 100%);
+    background:linear-gradient(to bottom, #ababab 5%, #ffffff 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ababab', endColorstr='#ffffff',GradientType=0);
+    background-color:#ababab;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:1em;
+    padding:0.5em 2em;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+#blog-button2:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ababab));
+    background:-moz-linear-gradient(top, #ffffff 5%, #ababab 100%);
+    background:-webkit-linear-gradient(top, #ffffff 5%, #ababab 100%);
+    background:-o-linear-gradient(top, #ffffff 5%, #ababab 100%);
+    background:-ms-linear-gradient(top, #ffffff 5%, #ababab 100%);
+    background:linear-gradient(to bottom, #ffffff 5%, #ababab 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ababab',GradientType=0);
+    background-color:#ffffff;
 }

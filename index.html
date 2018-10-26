@@ -19,36 +19,42 @@
 			<div class="tabs-background" id="tabs-background">
 				<div class="tab">
 					<button onclick="openTab(event, 'About-me')" class="tablinks" id="defaultOpen">About-me</button>
-					<button onclick="openTab(event, 'Curriculum Vitae')" class="tablinks" id="defaultOpen">Resume</button>
-					<button onclick="openTab(event, 'Blog')" class="tablinks" id="defaultOpen">Blog</button>
-					<button onclick="openTab(event, 'Contact')" class="tablinks" id="defaultOpen">Contact</button>
+					<button onclick="openTab(event, 'Curriculum Vitae')" class="tablinks">Resume</button>
+					<button onclick="openTab(event, 'Blog')" class="tablinks" id="blog-button">Blog</button>
+					<button onclick="openTab(event, 'Contact')" class="tablinks">Contact</button>
 				</div>
 			</div>
-			<img src="images/banner2.jpg" id="banner">
+			<img src="images/banner.jpg" id="banner">
 		</div>
 
 		<div id="About-me" class="tabcontent">
             <div id="Info-carousel" class="Info-carousel">
                 <div id="Carousel" class="carosel-mg"></div>
                 <div id="computing" class="computing">
-                    <img src="images/about/computing2.png" id="comp-pic">
+                    <img src="images/about/computing.png" id="comp-pic">
 					<h2>Computer Scientist</h2>
 					<p>Masters Qualification from Imperial College London</p>
                 </div>
                 <div id="electronics" class="electronics">
-                    <img src="images/about/electronic2.png" id="elec-pic">
+                    <img src="images/about/electronic.png" id="elec-pic">
 					<h2>Electronic Engineer</h2>
 					<p>Bachelors Qualification from University of York</p>
                 </div>
                 <div id="football" class="football">
-                    <img src="images/about/football2.png" id="foot-pic">
+                    <img src="images/about/football.png" id="foot-pic">
 					<h2>Football Fan</h2>
 					<p>Born this way!</p>
                 </div>
             </div>
 
             <div id="check-drone" class="check-drone">
-
+				<div id="check-drone-left" class="check-drone-left">
+					<h2>Check out my tech blog for projects on autonomous drones and more! </h2>
+					<button onclick="document.getElementById('blog-button').click()" id="blog-button2">Blog</button>
+				</div>
+				<div id="check-drone-right" class="check-drone-right">
+					<img src="images/about/parrot-drone.png" id="parrot">
+				</div>
             </div>
 
 			<div id="another-div" class="another-div">
