@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
-		<link rel="stylesheet" type="text/css" href="css/cv.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="css/about.css"/>
@@ -18,12 +17,16 @@
 		<div class="header" id="header">
 			<div class="tabs-background" id="tabs-background">
 				<div class="tab">
-					<button onclick="openTab(event, 'About-me')" class="tablinks" id="defaultOpen">About-me</button>
+					<button class="tablinks" id="activebutton">About-me</button>
 					<a href="./curriculum-vitae">
 						<button class="tablinks">Resume</button>
 					</a>
-					<button onclick="openTab(event, 'Blog')" class="tablinks" id="blog-button">Blog</button>
-					<button onclick="openTab(event, 'Contact')" class="tablinks">Contact</button>
+					<a href="./blog">
+						<button class="tablinks" id="blog-button">Blog</button>
+					</a>
+					<a href="./contact">
+						<button class="tablinks">Contact</button>
+					</a>
 				</div>
 			</div>
 			<img src="images/banner.jpg" id="banner">
@@ -64,28 +67,6 @@
 				<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/muhamadgafar" data-format="inline" data-related="false"></script>
 			</div>
 		</div>
-
-		<div id="Curriculum Vitae" class="tabcontent">
-			  <object data="./pdf/Curriculum_Vitae.pdf" type="application/pdf" id="cv-data">
-			   <p><b>Fallback PDF Viewer:</b> If this browser does not support PDFs, please download the PDF <a href="./pdf/Curriculum_Vitae.pdf">here</a> to view it.</p>
-			    <iframe src="https://drive.google.com/file/d/1BD1oET4NIsZtIh58cvoln1mfeVRuZJbs/preview" width="100%" height="100%"></iframe>
-			  </object>
-		</div>
-
-		<div id="Blog" class="tabcontent">
-		  <h3>Tech Blog</h3>
-		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-		</div>
-
-		<div id="Contact" class="tabcontent">
-		  <h3>Contact</h3>
-		  <p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-		</div>
-
-		<script>
-		// Get the element with id="defaultOpen" and click on it
-		document.getElementById("defaultOpen").click();
-		</script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer></script>

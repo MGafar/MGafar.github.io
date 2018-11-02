@@ -31,11 +31,10 @@
     border-bottom: 2px solid red;
 }
 
-/* Create an active/current tablink class */
- .tab button.active {
-    border-bottom: 2px solid red;
-    opacity: 1;
-}
+ #activebutton {
+     border-bottom: 2px solid red;
+     opacity: 1;
+ }
 
 /* Style the tab content */
  .tabcontent {
