@@ -2,14 +2,413 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161b23eb-ce36-42e2-9d87-9645b6eea88a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/pdf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/pdf.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/pdf.worker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/pdf.worker.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/simple-scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/simple-scrollbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78ms-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/78ms-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/83pv-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90ms-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90ms-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90msp-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90msp-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90pv-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/90pv-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Add-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Add-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Add-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Add-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-0.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-1.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-3.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-4.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-5.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-6.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-CNS1-UCS2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-0.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-1.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-3.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-4.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-5.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-GB1-UCS2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-0.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-1.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-3.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-4.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-5.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-6.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Japan1-UCS2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Korea1-0.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Korea1-1.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Korea1-2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Adobe-Korea1-UCS2.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/B5pc-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/B5pc-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS1-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS1-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS2-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/CNS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETHK-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETHK-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETen-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETen-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETenms-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/ETenms-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Ext-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Ext-RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Ext-RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Ext-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GB-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GB-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GB-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GB-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBK-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBK-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBK2K-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBK2K-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBKp-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBKp-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBT-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBT-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBT-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBT-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBTpc-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBTpc-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBpc-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/GBpc-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKdla-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKdla-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKdlb-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKdlb-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKgccs-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKgccs-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKm314-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKm314-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKm471-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKm471-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKscs-B5-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/HKscs-B5-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Hankaku.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Hiragana.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-Johab-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-Johab-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCms-UHC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCms-UHC-HW-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCms-UHC-HW-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCms-UHC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCpc-EUC-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/KSCpc-EUC-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Katakana.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/NWP-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/NWP-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/RKSJ-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/RKSJ-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/Roman.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UCS2-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UCS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF16-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF16-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF8-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniCNS-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UCS2-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UCS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF16-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF16-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF8-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniGB-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UCS2-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UCS2-HW-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UCS2-HW-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UCS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF16-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF16-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF8-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF16-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF16-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF8-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJIS2004-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISPro-UCS2-HW-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISPro-UCS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISPro-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISX0213-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISX0213-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISX02132004-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniJISX02132004-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UCS2-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UCS2-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF16-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF16-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF32-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF32-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF8-H.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/UniKS-UTF8-V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/V.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/cmaps/WP-Symbol.bcmap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/compressed.tracemonkey-pldi-09.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/debugger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-check.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-comment.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-help.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-insert.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-key.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-newparagraph.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-noicon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-note.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/annotation-paragraph.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-next-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-next-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-next@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-previous-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-previous-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-previous.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/findbarButton-previous@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/grab.cur" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/grabbing.cur" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/loading-icon.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/loading-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/loading-small@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-documentProperties.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-documentProperties@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-firstPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-firstPage@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-handTool.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-handTool@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-lastPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-lastPage@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-rotateCcw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-rotateCcw@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-rotateCw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-rotateCw@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollHorizontal@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollVertical@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollWrapped.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-scrollWrapped@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-selectTool.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-selectTool@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadEven.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadEven@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadNone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadNone@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadOdd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/secondaryToolbarButton-spreadOdd@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/shadow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/texture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-bookmark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-bookmark@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-download@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-menuArrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-menuArrows@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-openFile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-openFile@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageDown-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageDown-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageDown@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageUp-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageUp-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-pageUp@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-presentationMode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-presentationMode@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-print.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-print@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-search@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-secondaryToolbarToggle-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-secondaryToolbarToggle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-secondaryToolbarToggle@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-sidebarToggle-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-sidebarToggle-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-sidebarToggle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-sidebarToggle@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewAttachments.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewAttachments@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewOutline-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewOutline-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewOutline.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewOutline@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewThumbnail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-viewThumbnail@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-zoomIn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-zoomIn@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-zoomOut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/toolbarButton-zoomOut@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-collapsed-rtl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-collapsed-rtl@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-collapsed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-collapsed@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-expanded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/treeitem-expanded@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ach/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/af/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ak/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/an/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ar/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/as/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ast/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/az/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/be/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/bg/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/bn-BD/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/bn-IN/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/br/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/brx/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/bs/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ca/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/cak/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/crh/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/cs/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/csb/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/cy/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/da/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/de/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/el/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/en-CA/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/en-GB/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/en-US/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/en-ZA/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/eo/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/es-AR/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/es-CL/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/es-ES/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/es-MX/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/et/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/eu/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/fa/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ff/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/fi/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/fr/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/fy-NL/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ga-IE/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/gd/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/gl/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/gn/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/gu-IN/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/he/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hi-IN/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hr/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hsb/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hto/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hu/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/hy-AM/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ia/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/id/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/is/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/it/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ja/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ka/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/kab/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/kk/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/km/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/kn/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ko/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/kok/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ks/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ku/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/lg/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/lij/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/lo/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/locale.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/lt/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ltg/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/lv/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/mai/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/meh/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/mk/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ml/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/mn/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/mr/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ms/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/my/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/nb-NO/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ne-NP/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/nl/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/nn-NO/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/nso/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/oc/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/or/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/pa-IN/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/pl/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/pt-BR/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/pt-PT/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/rm/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ro/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ru/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/rw/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sah/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sat/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/si/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sk/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sl/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/son/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sq/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sr/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sv-SE/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/sw/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ta-LK/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ta/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/te/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/th/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/tl/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/tn/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/tr/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/tsz/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/uk/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/ur/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/uz/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/vi/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/wo/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/xh/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/zam/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/zh-CN/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/zh-TW/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/locale/zu/viewer.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/viewer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/viewer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/viewer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/viewer.js.map" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" afterPath="$PROJECT_DIR$/css/about.css" />
       <change beforePath="$PROJECT_DIR$/css/cv.css" afterPath="$PROJECT_DIR$/css/cv.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/curriculum-vitae/index.html" afterPath="$PROJECT_DIR$/curriculum-vitae/index.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/pdf/Curriculum_Vitae.pdf" afterPath="$PROJECT_DIR$/web/Curriculum_Vitae.pdf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +423,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -34,7 +433,7 @@
         <entry file="file://$PROJECT_DIR$/css/tabs.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,8 +442,8 @@
       <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="155" column="1" lean-forward="false" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -60,31 +459,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cv.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/cv.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+              <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cv.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cv.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/curriculum-vitae/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="96" lean-forward="false" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -104,7 +503,7 @@
         <entry file="file://$PROJECT_DIR$/contact/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,8 +537,8 @@
         <option value="$PROJECT_DIR$/css/about.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/curriculum-vitae/index.html" />
         <option value="$PROJECT_DIR$/css/cv.css" />
+        <option value="$PROJECT_DIR$/curriculum-vitae/index.html" />
       </list>
     </option>
   </component>
@@ -343,12 +742,12 @@
       <workItem from="1541182224600" duration="4946000" />
       <workItem from="1541238615796" duration="2519000" />
       <workItem from="1541274318785" duration="1307000" />
-      <workItem from="1541334921521" duration="3501000" />
+      <workItem from="1541334921521" duration="9195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61984000" />
+    <option name="totallyTimeSpent" value="67678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -726,15 +1125,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="155" column="1" lean-forward="false" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -742,7 +1133,7 @@
     <entry file="file://$PROJECT_DIR$/css/tabs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -758,7 +1149,7 @@
     <entry file="file://$PROJECT_DIR$/contact/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -766,23 +1157,31 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curriculum-vitae/index.html">
+    <entry file="file://$PROJECT_DIR$/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cv.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curriculum-vitae/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="96" lean-forward="false" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
           <folding />
         </state>
       </provider>

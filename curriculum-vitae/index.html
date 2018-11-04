@@ -30,12 +30,12 @@
 			<img src="../images/banner.jpg" id="banner">
 		</div>
 
-		<table border=0 cellspacing=0 cellpadding=0 id="hold_my_iframe">
-			<object data="../pdf/Curriculum_Vitae.pdf" type="application/pdf" id="cv-data" width=100% height=100% marginwidth=0 marginheight=0 frameborder=0>
-				<p><b>Fallback PDF Viewer:</b> If this browser does not support PDFs, please download the PDF <a href="../pdf/Curriculum_Vitae.pdf">here</a> to view it.</p>
-				<iframe src="https://drive.google.com/file/d/1BD1oET4NIsZtIh58cvoln1mfeVRuZJbs/preview" width="100%" height="100%"></iframe>
-			</object>
-		</table>
+
+
+		<object data="../web/Curriculum_Vitae.pdf" type="application/pdf" id="cv-data">
+			<p><br><b>Fallback PDF Viewer:</b> It appears that this browser does not support HTML5 PDF viewer. Attempting to view render PDF using javascript. If you still can't see the document, please download the CV <a href="../web/Curriculum_Vitae.pdf">here</a> to view it.</p>
+			<embed src="../web/viewer.html?file=Curriculum_Vitae.pdf" id="fallback-viewer">
+		</object>
 
 		<div id="bottom-banner" class="bottom-banner">
 			<div id="social-media" class="social-media">
@@ -44,5 +44,7 @@
 				<img src="../images/social-media/linkedin.png" id="media-icon">
 			</div>
 		</div>
+
+
 	</body>
 </html>
