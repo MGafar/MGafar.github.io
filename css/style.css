@@ -19,3 +19,26 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.bottom-banner{
+    position: relative;
+    width: 100vw;
+    box-shadow: 0 0 2px 2px #555;
+    background-image: linear-gradient(-135deg, white,  white);
+
+}
+
+.social-media{
+    display: block;
+    width: 16em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#media-icon {
+    height: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
