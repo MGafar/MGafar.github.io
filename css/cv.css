@@ -1,27 +1,23 @@
 #cv-data {
-    width: 100%;
-    max-height: 100%;
-    height: 60em;
+    width: 100vw;
+    height: 141vw;
 }
 
 #fallback-viewer{
     box-shadow: 0 0 2px 2px #555;
-    width: 100%;
-    max-height: 100vh;
-    height: 60em;
+    width: 100vw;
+    height: 141vw;
 }
 
 @media screen and (orientation : portrait) {
     #cv-data {
-        width: 100%;
-        max-height: 90vh;
-        height: 60em;
+        width: 100vw;
+        height: 141vw;
     }
 
     #fallback-viewer{
         box-shadow: 0 0 2px 2px #555;
-        width: 100%;
-        max-height: 90vh;
-        height: 60em;
+        width: 100vw;
+        height: 141vw;
     }
 }
