@@ -15,10 +15,9 @@
 .inner-contact-tab{
     position: relative;
     width: 100em;
-    max-width: vw;
+    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
-    border: ;
     border-radius: 4px;
 }
 

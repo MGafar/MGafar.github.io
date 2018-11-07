@@ -21,11 +21,12 @@ html, body {
 }
 
 .bottom-banner{
-    position: fixed;
-    width: 100vw;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
     box-shadow: 0 0 2px 2px #555;
     background-image: linear-gradient(-135deg, white,  white);
-    bottom: 0px;
 }
 
 .social-media{
@@ -34,8 +35,8 @@ html, body {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #media-icon {
