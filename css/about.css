@@ -46,7 +46,7 @@
  .computing img {
      display: block;
      position: relative;
-     width: 7em;
+     width: 14em;
      max-width: 50%;
      padding-top: 10%;
      margin: 0 auto;
@@ -68,7 +68,7 @@
 .electronics img {
     display: block;
     position: relative;
-    width: 7em;
+    width: 14em;
     max-width: 50%;
     padding-top: 10%;
     margin: 0 auto;
@@ -91,7 +91,7 @@
 .football img {
     display: block;
     position: relative;
-    width: 5.5em;
+    width: 11em;
     max-width: 30%;
     padding-top: 10%;
     margin: 0 auto;
@@ -149,7 +149,7 @@
 .check-drone-right img {
     display: block;
     position: relative;
-    height: 10em;
+    height: 15em;
     max-height: 70%;
     max-width: 80%;
     margin: 10% auto;
