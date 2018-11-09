@@ -1,6 +1,7 @@
 #banner{
     position: relative;
     height: 10vw;
+    min-height: 6em;
 	width: 100vw;
     box-shadow: 0 0 2px 2px #555;
 }
