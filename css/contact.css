@@ -26,7 +26,7 @@
 }
 
 #message{
-    height: 15em;
+    height: 25em;
 }
 
 #submit-button{
@@ -61,4 +61,8 @@
     background:linear-gradient(to bottom, #ffffff 5%, #ababab 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ababab',GradientType=0);
     background-color:#ffffff;
+}
+
+#Contact{
+    min-height: 80vh;
 }
