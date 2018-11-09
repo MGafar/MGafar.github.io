@@ -92,7 +92,7 @@
     display: block;
     position: relative;
     width: 11em;
-    max-width: 30%;
+    max-width: 40%;
     padding-top: 10%;
     margin: 0 auto;
 }
@@ -149,9 +149,8 @@
 .check-drone-right img {
     display: block;
     position: relative;
-    height: 15em;
-    max-height: 70%;
-    max-width: 80%;
+    width: 40em;
+    max-width: 55%;
     margin: 10% auto;
 }
 
