@@ -1,14 +1,15 @@
 .form{
     width: 50em;
     display: block;
-    border: none;
     max-width: 100%;
-    border-bottom: 2px solid #555555;
-    border-top: 1px solid #999999;
+    border: 1px solid #999999;
+    border-radius: 1em;
     margin-bottom: 1em;
     resize: vertical;
     margin-left: auto;
     margin-right: auto;
+    background: #EFEFEE;
+    text-indent: 0.5em;
 }
 
 
@@ -39,8 +40,8 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ababab', endColorstr='#ffffff',GradientType=0);
     background-color:#ababab;
     -moz-border-radius: 2em;
-    -webkit-border-radius: 1em;
-    border-radius: 1em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
     border:1px solid #6b6b6b;;
     display:inline-block;
     cursor:pointer;
