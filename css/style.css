@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 #banner{
     position: relative;
     height: 10vw;
@@ -9,16 +23,6 @@
 #header{
     position: relative;
     height: auto;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 .bottom-banner{
