@@ -12,6 +12,9 @@
     text-indent: 0.5em;
 }
 
+.form::-webkit-scrollbar { 
+    display: none; 
+}
 
 .inner-contact-tab{
     position: relative;
