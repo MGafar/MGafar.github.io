@@ -10,6 +10,7 @@
     margin-right: auto;
     background: #EFEFEE;
     text-indent: 0.5em;
+    overflow:hidden;
 }
 
 .form::-webkit-scrollbar { 
