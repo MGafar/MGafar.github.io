@@ -1,6 +1,7 @@
 #cv-data {
     width: 100vw;
     height: 141vw;
+    max-height: 100vh;
 }
 
 #fallback-viewer{
