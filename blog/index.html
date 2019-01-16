@@ -36,16 +36,10 @@
 		</div>
 
 		<div id="parent-div">
-			<div id="post-inner">
+			<div id="posts">
 				<h3 id="blog-h3">Latest Blog Posts</h3>
 				<p>THIS SECTION IS UNDER CONSTRUCTION!</p>
 				Testing 123!
-			</div>
-
-			<div id="post-inner">
-				<h3 id="blog-h3">Another blog test!</h3>
-				<p>THIS SECTION IS ALSO UNDER CONSTRUCTION!</p>
-				More Testing 123!
 			</div>
 		
 			<div id="disqus_thread"></div>
@@ -85,7 +79,11 @@
                     <img src="../images/social-media/hackerrank.png" id="media-icon">
                 </a>
             </div>
-        </div>
+		</div>
+		
+		<script type="text/babel">
+			ReactDOM.render(<h1>Test</h1>, document.getElementById('posts'));
+		</script>
 
 	</body>
 </html>
