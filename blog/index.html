@@ -35,33 +35,40 @@
 			<img src="../images/banner.jpg" id="banner">
 		</div>
 
-		<div id="main-content">
-			<h3 id="blog-h3">Latest Blog Posts</h3>
-			<p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-			Testing 123!
-		</div>
+		<div id="parent-div">
+			<div id="post-inner">
+				<h3 id="blog-h3">Latest Blog Posts</h3>
+				<p>THIS SECTION IS UNDER CONSTRUCTION!</p>
+				Testing 123!
+			</div>
 
-		<div id="disqus_thread"></div>
-		<script>
-
-			/**
-			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-			*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-			
-			var disqus_config = function () {
-			this.page.url = mgafar.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-			this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-			};
-			
-			(function () { // DON'T EDIT BELOW THIS LINE
-				var d = document, s = d.createElement('script');
-				s.src = 'https://mgafar-github-io.disqus.com/embed.js';
-				s.setAttribute('data-timestamp', +new Date());
-				(d.head || d.body).appendChild(s);
-			})();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+			<div id="post-inner">
+				<h3 id="blog-h3">Another blog test!</h3>
+				<p>THIS SECTION IS ALSO UNDER CONSTRUCTION!</p>
+				More Testing 123!
+			</div>
+		
+			<div id="disqus_thread"></div>
+			<script>
+	
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				
+				var disqus_config = function () {
+				this.page.url = mgafar.github.io;  // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				
+				(function () { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://mgafar-github-io.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>	
 
         <div id="bottom-banner" class="bottom-banner">
             <div id="social-media" class="social-media">
