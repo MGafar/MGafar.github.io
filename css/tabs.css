@@ -37,6 +37,11 @@
      opacity: 1;
  }
 
+ #semiactive {
+    border-bottom: 2px solid red;
+    opacity: 0.5;
+}
+
 /* Style the tab content */
  .tabcontent {
     padding: 0;
