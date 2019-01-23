@@ -73,16 +73,40 @@
                 </a>
             </div>
 		</div>
+
+		<script>
+			const urlParams = new URLSearchParams(window.location.search);
+			const page_number = Number(urlParams.get('page'));
+
+			console.log("The page numbers are: ");
+
+			for (var i = 1; i <= page_number; i++) {
+				console.log(i);
+			}
+		</script>
 		
+
 		<script type="text/babel">
+			var Post = React.createClass
+			({
+				render: function () 
+				{
+					return
+					{
+						<div>
+							<h3 id = "blog-h3">{this.props.title}</h3>
+							<p>{this.props.content}</p>
+						</div>
+					};
+				}
+			});
+
 			ReactDOM.render(
-				<div> 
-					<h3 id="blog-h3">Latest Blog Posts</h3>
-					<p>THIS SECTION IS UNDER CONSTRUCTION!</p>
-					Testing 1234!
+				<div>
+					<Post title="Latest Blog Post" 
+					      content="Testing 123"/>
 				</div>
 				, document.getElementById('posts'));
 		</script>
-
 	</body>
 </html>
