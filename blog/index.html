@@ -87,8 +87,8 @@
 		
 
 		<script type="text/babel">
-			var Post = React.createClass
-			({
+			class Post extends React.Component 
+			{
 				render: function () 
 				{
 					return
@@ -99,7 +99,7 @@
 						</div>
 					};
 				}
-			});
+			};
 
 			ReactDOM.render(
 				<div>
