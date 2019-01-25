@@ -76,7 +76,10 @@
 
 		<script>
 			const urlParams = new URLSearchParams(window.location.search);
-			const page_number = Number(urlParams.get('page'));
+			var page_number = Number(urlParams.get('page'));
+
+			if(page_number == 0)
+				page_number = 1;
 
 			console.log("URL page nums: " + page_number);
 		</script>
@@ -88,7 +91,7 @@
 				({
 					url: "./XML",
 					success: function(data){
-						$(data).find("a:contains(.txt)").each(function(){
+						$(data).find("a:contains(.xml)").each(function(){
 							number_of_posts++;
 						});
 					}
@@ -98,8 +101,11 @@
 		<script type="text/javascript">
 			$(document).ready(function () 
 			{
-			console.log("number of posts found: " + number_of_posts);
-		})
+				console.log("number of posts found: " + number_of_posts);
+
+				for(var i = 1 + (page_number-1)*5; i <= page_number*5 && i <= number_of_posts; i++)
+					console.log("Adding posts number: " + i);
+			})
 		</script>
 	</body>
 </html>
