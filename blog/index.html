@@ -89,7 +89,8 @@
 			var number_of_posts = 0;
 				$.ajax
 				({
-					url: "./XML",
+					url: "./XML/",
+					dataType: "html",
 					success: function(data){
 						$(data).find("a:contains(.xml)").each(function(){
 							number_of_posts++;
