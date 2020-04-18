@@ -25039,7 +25039,7 @@ color: #000000; }
 @media (max-width: 1199px){ .u-header .u-menu-1 {width: auto} }
 
 @media (max-width: 767px){ .u-header .u-image-1 {width: 64px; height: 32px} }
-
+@media (max-width: 575px){ .u-header .u-image-1 {width: auto} }
  .u-footer {background-image: none}
 .u-footer .u-sheet-1 {min-height: 69px} 
 @media (max-width: 1199px){ .u-footer .u-sheet-1 {min-height: 99px} }
